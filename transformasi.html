@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menata Transformasi </title>
+<style>
+h1{
+width: 250px;
+height: 50px
+color: red
+background-color yellow;
+text-align: center;
+float: right;
+-ms-transform: rotate (10deg)
+-webkit-transform rotate (l0deg)
+transform: rotate (10deg)
+-webkit-transform-origin: 20% 50%;
+Transform-origin: 20% 50%;
+}
+.rotasi{
+width: 400px
+height: 50px;
+color white
+background-color: green;
+-ms-transform: rotateY (180deg)
+-webkit-transform: rotateY (180deg)
+transform: rotateY (180deg)
+-ms-backface-visibility: hidden
+-webkit-backface-visibility: hidden;
+backface-visibility: visible
+}
+.putar{
+animation:memutar 3s infinite; }
+@keyframes memutar {
+from (transform: rotateY (0deg);
+to ftransform: rotateY (360deg)
+}
+.perspektif {
+position: relative;
+height: 150px
+width: 150px
+margin: 50px
+padding: 10px
+border 1px solid black
+-webkit-perspective: 150px
+perspective: 15Opx
+-webkit-perspective-origin: 10% 20%
+perspective-origin: 10% 20%;
+-webkit-transform-style: preserve-3d:
+transform-style: preserve-3d;}
+H2 {
+padding 50px;
+position: absolute
+rder 1px solid black,
+background-color: red
+-webkit-transfozm: rotatex (45deg)
+transform: rotatex (45deg) }
+h2{
+padding: 40px,
+position: absolute;
+Border: 1px solid black;
+background-color: blue
+-webkit-transform: rotateY (45deg)
+Transform: rotateY (45deg
+.rapikan{
+clear: both;
+}
+</style:>
+</head>
+<body>
+<h1>Pengumuman</hl>
+<div class-"rapikan"></div>
+<div class-"rotasi putar">Teks Berputar, ubah nilai backface-visibility menjadi hidden untuk menyembuyikan bagian belakang elemen ini.</div>
+<div class-"perspektif">
+<h2> Satu</h2>
+<h3> Dua</h3>
+</div
+</body>
+</html>
